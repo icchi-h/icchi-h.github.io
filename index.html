@@ -38,12 +38,12 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
                 menu: '#menu',
-				anchors: ['about', 'profile', 'contact', 'product'],
+				anchors: ['about', 'profile', 'contact'/*, 'product'*/],
 				//sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
                 resize: false,
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['About', 'Profile', 'Contact', 'Product'],
+				navigationTooltips: ['About', 'Profile', 'Contact'/*, 'Product'*/],
                 responsive: 900,
                 /*afterRender: function() {
 					map_initialize(); //画面を小さくしてもnavbarが表示
@@ -72,7 +72,7 @@
 					<li data-menuanchor="about" class="active"><a href="#about">About</a></li>
 					<li data-menuanchor="profile"><a href="#profile">Profile</a></li>
 					<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-					<li data-menuanchor="product"><a href="#product">Product</a></li>
+                    <!--<li data-menuanchor="product"><a href="#product">Product</a></li>-->
 				</ul>
 			</div>
 		</div>
@@ -156,6 +156,7 @@
                 </div>                    
             </div>
         </div>
+        <!--未完成
         <div class="section" id="section3">
             <div class="container">
                 <h1>Product</h1>
@@ -166,6 +167,7 @@
                 </div>
             </div>
         </div>
+        -->
 
     </div>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
