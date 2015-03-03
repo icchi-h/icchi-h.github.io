@@ -14,101 +14,11 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
 
-	<style>
-
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 4em;
-		/*font-family: arial,helvetica;*/
-        font-family: 'Nixie One';
-        font-weight: bold;
-		color: #000;
-		/*margin:0;*/
-        padding-bottom: 0.5em;
-		text-align:center;
-        
-	}
-	.container p{
-		color: #000;
-        font-size: 16px;
-	}
-    
-    .top-margin{
-        margin-top: 10%;
-    }
-
-    .ctop-margin{
-        margin-top: 2em;
-    }
-
-    .name-line{
-        border-bottom: 2px solid black;
-        padding-bottom: 10px;
-        margin-bottom:3em;
-    }
-
-    p.profile{
-        padding: 0px, 100px;
-        text-align: left;
-    }
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-    .navbar-brand{
-        font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-	}
-
-    #fp-nav ul li .fp-tooltip.right {
-        color: #000;
-        font-size: 18px;
-    }
-
-    .disp-inBlock{display:inline-block:}
-    /*小さいデバイスでは横に並べる数を変更*/
-    @media screen and (max-width: 600px){
-        .itemBox{
-            width:20%
-        }
-    }
-    /*以下はスタイルの調整*/
-    /*img{width:100%;}*/
-    .itemBox{
-        width:128px;
-        float: left;
-        margin:2%;
-    }
-
-    /* Bottom menu
-	* --------------------------------------- */
-    /* 
-	#infoMenu li a {
-		color: #000;
-	}
-    */
-    
-
-    /* Background setting
-	* --------------------------------------- */
-    #section0{
-        background-image: url("img/body-bg.jpg");
-    }
-    #section1{
-        background-image: url("img/body-bg.jpg");
-    }
-    #section2{
-        background-image: url("img/body-bg.jpg");
-    }
-    #section3{
-        background-image: url("img/body-bg.jpg");
-    }
-	</style>
+    <link rel="stylesheet" href="http://u-zoroy.com/sozai/css/style.css" type="text/css">
+    <script type="text/javascript" src="http://u-zoroy.com/sozai/js/common.js"></script>
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -208,40 +118,41 @@
                 <h1>Contact</h1>
                 <div class="row">
                     <div class="col-sm-12 top-margin">
-                            <div class="itemBox disp-inBlock">
-                                <a href="http://harulabo.net" target="_blank">
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01 button" title="Blog" href="http://harulabo.net" target="_blank">
                                 <img src="img/wordpress-128.png" alt="blog" width="110px"></a>
-                            </div>
-                            <div class="itemBox disp-inBlock">
-                                <a href="https://twitter.com/haru1no" target="_blank">
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Twitter" href="https://twitter.com/haru1no" target="_blank">
                                 <img src="img/twitter-128.png" alt="twitter" width="110px"/></a>
-                            </div>
-                            <div class="itemBox disp-inBlock">
-                                <a href="https://www.facebook.com/harulabo" target="_blank">
-                                    <img src="img/facebook-128.png" alt="facebook" width="110px"/></a>
-                            </div>
-                            <div class="itemBox disp-inBlock">
-                                <a href="https://plus.google.com/+HarulabInfohome/videos" target="_blank">
-                                    <img src="img/google-128.png" alt="google+" width="110px"/></a>
-                            </div>
-                            <div class="itemBox disp-inBlock">
-                               <a href="https://github.com/harulabo" target="_blank">
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Facebook" href="https://www.facebook.com/harulabo" target="_blank">
+                                <img src="img/facebook-128.png" alt="facebook" width="110px"/></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Google+" href="https://plus.google.com/+HarulabInfohome/videos" target="_blank">
+                                <img src="img/google-128.png" alt="google+" width="110px"/></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="GitHub" href="https://github.com/harulabo" target="_blank">
                                 <img src="img/github-128.png" alt="github" width="110px"/></a>
-                            </div>
-                            <div class="itemBox disp-inBlock">
-                                <a href="https://gist.github.com/harulabo/" target="_blank">
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Gist" href="https://gist.github.com/harulabo/" target="_blank">
                                 <img src="img/gist-128.png" alt="gist" width="110px"/></a>
-                            </div>
-                            <div class="itemBox disp-inBlock">
-                                <a href="https://www.youtube.com/channel/UCHHeJ-7wMNja2hNnLrkdSVg" target="_blank">
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Youtube" href="https://www.youtube.com/channel/UCHHeJ-7wMNja2hNnLrkdSVg" target="_blank">
                                 <img src="img/youtube-128.png" alt="youtube" width="110px"/>
-                            </a>                            </div>
-                            <div class="itemBox disp-inBlock">
-                                <a href="mailto:&#104;&#97;&#114;&#117;&#108;&#97;&#98;&#111;&#105;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" target="_blank">
+                            </a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Mail" href="mailto:&#104;&#97;&#114;&#117;&#108;&#97;&#98;&#111;&#105;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" target="_blank">
                                 <img src="img/mail-128.png" alt="mail" width="110px"/></a>
-                            </div>
+                        </div>
                     </div>
-                    <div id="copyright">Copyright &copy; 2010-2015 Haru Labo</div>
+                    <div id="copyright">Copyright &copy; 2012-2015 Haru Labo</div>
                 </div>                    
             </div>
         </div>
