@@ -47,29 +47,31 @@ p.profile{
     font-size: 18px;
 }
 
-.disp-inBlock{display:inline-block:}
-/*小さいデバイスでは横に並べる数を変更*/
-@media screen and (max-width: 600px){
-    .itemBox{
-        width:20%
-    }
+
+/*画像の横並び*/
+/*--------------------------------------------*/
+.inline-block {
+    text-align: center;
 }
-/*以下はスタイルの調整*/
-/*img{width:100%;}*/
-.itemBox{
-    width:128px;
-    float: left;
-    margin:0.5%;
+.inline-block ul {
+    list-style: none;
+}
+.inline-block li {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    margin: 0.5%;
     margin-bottom:50px;
 }
+/*--------------------------------------------*/
 
-/* Bottom menu
- * --------------------------------------- */
-/* 
-#infoMenu li a {
-color: #000;
+h2{
+    font-size: 1.6em;
 }
- */
+.center-text{
+    margin-bottom: 0.5em;
+}
+
 
 /* Background setting
  * --------------------------------------- */
@@ -86,42 +88,6 @@ color: #000;
     background-image: url("../img/body-bg.jpg");
 }
 
-/* Hukidasi css*/
-/*---------------------------------------*/
-/*
-#menu div {
-  position: relative;
-}
-.arrow_box {
-  display: none;
-  position: absolute;
-  padding: 16px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;  
-  border-radius: 8px;
-  background: #333;
-  color: #fff;
-}
-
-.arrow_box:after {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -10px;
-  border: solid transparent;
-  border-color: rgba(51, 51, 51, 0);
-  border-bottom-color: #333;
-  border-width: 10px;
-  pointer-events: none;
-  content: " ";
-}
-
-span:hover + a.arrow_box {
-  display: block;
-}
-*/
 
 .wrap a span{
   position: absolute;

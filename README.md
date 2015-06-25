@@ -1,4 +1,2 @@
-2015.01.16  
-GitHub Pagesを作りました。
-
-<http://harulabo.github.io>
+# My GitHub Pages
+<http://haru1no.github.io>
