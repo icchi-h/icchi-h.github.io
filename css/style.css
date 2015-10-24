@@ -1,13 +1,11 @@
 h1{
-    font-size: 4em;
     font-family: arial,helvetica;
-    /*font-family: 'Nixie One';*/
     font-weight: normal;
-    color: #000;
     /*margin:0;*/
-    padding-bottom: 0.5em;
-    text-align:center;
-    margin-bottom: 10%;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
 }
 
 h2{
@@ -16,8 +14,16 @@ h2{
 h3{
     font-size: 2em;
 }
-.center-text{
-    margin-bottom: 0.5em;
+
+hr{
+    border-top: solid 2px #000;
+}
+
+.prof_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
 }
 
 .container p{
@@ -25,23 +31,15 @@ h3{
     font-size: 16px;
 }
 
-.top-margin{
-    /*margin-top: 10%;*/
-}
-
-.ctop-margin{
-    margin-top: 2em;
-}
-
-.name-line{
+.name{
     border-bottom: 2px solid black;
     padding-bottom: 10px;
-    margin-bottom:3em;
+    text-align: center;
 }
 
-p.profile{
-    padding: 0px, 100px;
-    text-align: left;
+
+.contact{
+    text-align: center;
 }
 
 .row{
@@ -54,93 +52,14 @@ p.profile{
 
 .col-md-3{
     word-wrap: break-word;
-    margin-top: 1.2em;
+    margin-bottom: 1.2em;
 }
 
-/* Centered texts in each section
- * --------------------------------------- */
-.section{
-    text-align:center;
-}
-
-.navbar-brand{
-    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-}
-
-#fp-nav ul li .fp-tooltip.right {
-    color: #000;
-    font-size: 18px;
-}
-
-
-/*画像の横並び*/
-/*--------------------------------------------*/
-.inline-block {
-    text-align: center;
-}
-.inline-block ul {
-    list-style: none;
-}
-.inline-block li {
-    display: inline-block;
-    width: 128px;
-    height: 128px;
-    margin: 0.5%;
-    margin-bottom:50px;
-}
-/*--------------------------------------------*/
 
 
 
 /* Background setting
  * --------------------------------------- */
-#section0{
+body{
     background-image: url("../img/body-bg.jpg");
-}
-#section1{
-    background-image: url("../img/body-bg.jpg");
-}
-#section2{
-    background-image: url("../img/body-bg.jpg");
-}
-#section3{
-    background-image: url("../img/body-bg.jpg");
-}
-
-
-.wrap a span{
-  position: absolute;
-  opacity: 0;
-  top: -50px;
-  left: -20px;
-  width: 60px;
-  padding: 10px;
-  border-radius: 2px;
-  background: #196090;
-  color: #fff;
-  font-size: 12px;
-  line-height: 1;
-  transition: .3s;
-}
-.wrap a span:after{
-  position: absolute;
-  top: 100%;
-  left: 34px;
-  height: 0;
-  width: 0;
-  border: 6px solid transparent;
-  border-top: 6px solid #196090;
-  content: "";
-}
-.wrap a:hover span{
-  opacity: 1;
-  top: -40px;
-}
-
-/* mouseover tras*/
-/*---------------------------------------*/
-.itemBox.disp-inBlock a:hover img {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-  -ms-filter: "alpha(opacity=70)";
 }
