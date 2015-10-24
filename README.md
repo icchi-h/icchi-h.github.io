@@ -1,2 +1,2 @@
 # My GitHub Pages
-<http://haru1no.github.io>
+<http://haru1icchi.github.io>
