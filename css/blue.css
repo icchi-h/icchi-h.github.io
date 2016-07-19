@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  /*color: #777777;*/
+  color: #777777;
   color: #7f7f7f;
   background: #fff;
   height: 100%;
@@ -24,14 +24,13 @@ body {
 }
 
 a {
-  /*color: #6173f4;*/
-  color: #4285f4;
+  color: #2185d5;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #4285f4;
+  color: #2185d5;
   outline: none;
 }
 
@@ -66,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   opacity: 1;
   top: 0;
-  /*margin-top: 20px;*/
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header {
@@ -78,8 +77,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    /*color: #4285f4 !important;*/
-    margin-left: 1em;
+    color: #2185d5 !important;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -88,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #4285f4 !important;
+    color: #2185d5 !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -96,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #4285f4 !important;
+    color: #2185d5 !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -125,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: #2185d5;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -178,24 +176,21 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  /*color: #4285f4;*/
-  color: #fff;
+  color: #2185d5;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
-  /*color: rgba(0, 0, 0, 0.5);*/
-  color: #fff;
+  color: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  /*color: #4285f4;*/
-  color: #fff;
+  color: #2185d5;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #4285f4;
+  color: #2185d5;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -224,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #4285f4;
+  color: #2185d5;
   font-style: normal;
 }
 #fh5co-header a {
@@ -256,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #4285f4;
+  background: #2185d5;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -290,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
-  padding: 9em 0;
+  padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
   #fh5co-our-services,
@@ -304,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-testimonials {
-  background: #4285f4;
+  background: #2185d5;
 }
 #fh5co-testimonials .section-heading h2 {
   color: white;
@@ -359,7 +354,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #4285f4;
+  background: #2185d5;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -396,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 #fh5co-pricing .price-box.popular {
-  border: 2px solid #4285f4;
+  border: 2px solid #2185d5;
 }
 #fh5co-pricing .price-box.popular .popular-text {
   top: 0;
@@ -405,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -2em;
   position: absolute;
   padding: 4px 20px;
-  background: #4285f4;
+  background: #2185d5;
   color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -419,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   margin-left: -10px;
   border-top: 10px solid black;
-  border-top-color: #4285f4;
+  border-top-color: #2185d5;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -513,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #2fc5cc;
 }
 #fh5co-our-services .box .icon.colored-6 {
-  background: #4285f4;
+  background: #6173f4;
 }
 #fh5co-our-services .box .step-number {
   font-size: 16px;
@@ -550,7 +545,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-features .fh5co-service .fh5co-icon i {
   font-size: 40px;
-  color: #4285f4;
+  color: #2185d5;
 }
 #fh5co-features .fh5co-service .fh5co-desc {
   width: 80%;
@@ -613,7 +608,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   height: 2px;
   width: 30px;
-  background: #4285f4;
+  background: #2185d5;
 }
 #fh5co-press .fh5co-press-item .fh5co-press-img {
   position: absolute;
@@ -639,7 +634,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #4285f4;
+  background: #2185d5;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -653,18 +648,18 @@ h1, h2, h3, h4, h5, h6 {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #4285f4;
+  color: #2185d5;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #4285f4;
+  background: #2185d5;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #4285f4;
+  background: #2185d5;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -771,14 +766,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #4285f4;
+  background: #2185d5;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #4285f4;
+  background: #2185d5;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -818,11 +813,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
 }
 .social li a.social-box {
-  background: #4285f4;
+  background: #2185d5;
   color: #fff;
 }
 .social li a.social-circle {
-  background: #4285f4;
+  background: #2185d5;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -833,11 +828,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #393e46 !important;
 }
 .social.social-box a {
-  background: #4285f4;
+  background: #2185d5;
   color: #fff;
 }
 .social.social-circle a {
-  background: #4285f4;
+  background: #2185d5;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1133,49 +1128,4 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
-
-/* -------------------------------------------- */
-/* my code */
-/* -------------------------------------------- */
-#fh5co-header ul{
-  font-size: 1.2em;
-}
-
-.about-contents{
-  padding: 2em 1em;
-  background: #eee;
-  border-radius: 4px;
-}
-
-.right-contents{
-  padding: 0 1em;
-}
-
-#fh5co-about img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.name{
-  text-align: center;
-  border-bottom: 2px solid black;
-
-}
-.name span{
-  font-size: 80%;
-  color: #555;
-  margin-left: 20px;
-}
-
-#fh5co-about p{
-  font-size: 1.1em;
-  color: #444;
-  line-height: 1em;
-}
-
-.right-contents.link{
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=blue.css.map */
