@@ -1174,6 +1174,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
 }
 
+.about-description{
+  padding: 1em 0;
+}
+
 .right-contents.link{
   text-align: center;
 }
