@@ -1,2 +1,2 @@
-# My GitHub Pages
+# My Page
 <http://icchi.me>
