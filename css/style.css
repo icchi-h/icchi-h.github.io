@@ -586,6 +586,13 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-press .fh5co-press-item .fh5co-press-img {
   width: 50%;
 }
+
+.fh5co-press-img{
+   background-position: center center !important;
+   background-repeat: no-repeat !important;
+   background-size: contain !important;
+}
+
 @media screen and (max-width: 480px) {
   #fh5co-press .fh5co-press-item .fh5co-press-text,
   #fh5co-press .fh5co-press-item .fh5co-press-img {
