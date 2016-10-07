@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 1em;
   }
   #fh5co-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(256, 256, 256, 0.5) !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -110,7 +110,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: #fff;
   position: relative;
 }
 #fh5co-header #navbar li a span {
@@ -152,7 +153,8 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
+  /*color: #fff;*/
+  color: #4285f4;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
