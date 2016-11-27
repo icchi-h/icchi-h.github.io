@@ -801,17 +801,17 @@ h4 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #4285f4;
+  background: #4885ed;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #4285f4;
+  background: #4885ed;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: #db3236 !important;
   color: #fff;
   outline: none !important;
 }
