@@ -80,246 +80,285 @@
 
 </head>
 
+<style>
+
+</style>
+
 <body>
-	<!--<header role="banner" id="fh5co-header" style="background-color:#333; opacity: 0.1">-->
-	<header role="banner" id="fh5co-header" style="background-color: #222">
-		<div class="container">
-			<div class="row">
-				<nav class="navbar navbar-default">
-					<nav class="navbar">
-						<div class="navbar-header">
-
-							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-							<a class="navbar-brand" href="index.html">icchi's page</a>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse">
-							<ul class="nav navbar-nav navbar-right">
-								<li class="active"><a href="#" data-nav-section="about"><span>About</span></a></li>
-								<li><a href="#" data-nav-section="products"><span>Products</span></a></li>
-								<li><a href="#" data-nav-section="works"><span>Works</span></a></li>
-							</ul>
-						</div>
-          </nav>
-				</nav>
-			</div>
-		</div>
-	</header>
-
-
-    <div id="fh5co-about" data-section="about" style="background-image:url(img/slide_bg.jpg);background-size: cover;background-position: right top">
-        <div class="container" id="about-us">
-            <div class="row" >
-
-                <div class="col-md-12 section-heading text-center">
-                    <h2 class="to-animate">About</h2>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 to-animate">
-                            <h3></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-bottom-padded-lg about-contents">
-                <div class="col-md-6 to-animate">
-                    <img width="320" src="img/profile.jpg" class="img-responsive img-rounded">
-                </div>
-                <div class="col-md-6 to-animate">
-                    <div class="row right-contents">
-                        <h1 class="name">Haruyuki Ichino <span>icchi</span></h1>
-                        <div class="about-description">
-                            <p>電子工作やプログラミングが好きな大学院生.</p>
-                            <p>最近はおうちハックに興味あり. <br>普段はDNNを使った人間行動の認識に関して研究しています.</p>
-                            <p><i class="fa fa-map-marker fa-fw"></i>名古屋</p>
-                        </div>
-                    </div>
-                    <div class="row link right-contents">
-                        <div class="col-sm-3">
-                            <a href="https://twitter.com/icchi_h" target="_blank"><h3><i class="fa fa-twitter fa-fw"></i>Twitter</h3></a>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <a href="http://github.com/icchi-h" target="_blank"><h3><i class="fa fa-github fa-fw"></i>GitHub</h3></a>
-                        </div>
-
-                        <!-- <div class="col&#45;sm&#45;3"> -->
-                        <!-- 	<h3><i class="fa fa&#45;github&#45;alt fa&#45;fw"></i></i>Gist</h3> -->
-                        <!-- 	<a href="https://gist.github.com/icchi&#45;h/" target="_blank">https://gist.github.com/icchi&#45;h/</a> -->
-                        <!-- </div> -->
-
-                        <div class="col-sm-3">
-                            <a href="http://blog.icchi.me" target="_blank"><h3><i class="fa fa-wordpress fa-fw"></i>Blog</h3></a>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <a href="http://qiita.com/icchi_h" target="_blank"><h3><i class="fa fa-search fa-fw"></i>Qiita</h3></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+    <div id="loader-bg">
+        <div id="loader">
+            <img src="img/loading.gif" alt="Now Loading..." />
+            <!-- <p>Now Loading...</p> -->
         </div>
     </div>
 
+    <div id="wrap">
+    	<!--<header role="banner" id="fh5co-header" style="background-color:#333; opacity: 0.1">-->
+    	<header role="banner" id="fh5co-header" style="background-color: #222">
+    		<div class="container">
+    			<div class="row">
+    				<nav class="navbar navbar-default">
+    					<nav class="navbar">
+    						<div class="navbar-header">
 
-    <div id="fh5co-press" data-section="products">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 section-heading text-center">
-                    <h2 class="single-animate animate-press-1">Products</h2>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
-                            <!-- <h3>作ったもの</h3> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
+    							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+    							<a class="navbar-brand" href="index.html">icchi's page</a>
+    						</div>
+    						<div id="navbar" class="navbar-collapse collapse">
+    							<ul class="nav navbar-nav navbar-right">
+    								<li class="active"><a href="#" data-nav-section="about"><span>About</span></a></li>
+    								<li><a href="#" data-nav-section="products"><span>Products</span></a></li>
+    								<li><a href="#" data-nav-section="works"><span>Works</span></a></li>
+    							</ul>
+    						</div>
+              </nav>
+    				</nav>
+    			</div>
+    		</div>
+    	</header>
 
-                <div class="col-md-6">
-                    <div class="fh5co-press-item to-animate">
-                        <div class="fh5co-press-img" style="background-image: url(img/product/senpanavi.jpg);">
-                        </div>
-                        <div class="fh5co-press-text">
-                            <h3 class="h2 fh5co-press-title">センパナビ<span class="fh5co-border"></span></h3>
-                            <p>名古屋・栄地下街セントラルパークの案内アプリ for Android.</p>
-                            <p><a href="https://play.google.com/store/apps/details?id=jp.lisra.cenpanavi2&hl=ja" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-6">
-                    <div class="fh5co-press-item to-animate">
-                        <a href="http://www.ucl.nuee.nagoya-u.ac.jp/" target="_blank"><div class="fh5co-press-img" style="background-image: url(img/product/ucl-website.jpg);">
-                        </div></a>
-                        <div class="fh5co-press-text">
-                            <h3 class="h2 fh5co-press-title">名古屋大・河口研HP<span class="fh5co-border"></span></h3>
-                            <p>所属する名古屋大学 河口研究室のWebサイト開発を担当．</p>
-                            <p><a href="http://blog.icchi.me/develop-lab-new-website/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
-                        </div>
-                    </div>
-                </div>
+        <div id="fh5co-about" data-section="about" style="background-image:url(img/slide_bg.jpg);background-size: cover;background-position: right top">
+            <div class="container" id="about-us">
+                <div class="row" >
 
-                <div class="col-md-6">
-                    <div class="fh5co-press-item to-animate">
-                        <div class="fh5co-press-img" style="background-image: url(img/product/stamp_on_slack_demo.gif);">
-                        </div>
-                        <div class="fh5co-press-text">
-                            <h3 class="h2 fh5co-press-title">Stamp on Slack<span class="fh5co-border"></span></h3>
-                            <p>SlackでLINE風にスタンプを表示するシステム．</p>
-                            <p><a href="http://blog.icchi.me/slack-stamp-post/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="to-animate">About</h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 to-animate">
+                                <h3></h3>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="fh5co-press-item to-animate">
-                        <div class="fh5co-press-img" style="background-image: url(img/product/demo-NewGmail.gif);">
-                        </div>
-                        <div class="fh5co-press-text">
-                            <h3 class="h2 fh5co-press-title">Gmail Starter for Mac<span class="fh5co-border"></span></h3>
-                            <p>1クリックでGmailの新規メール画面を表示するアプリ. </p>
-                            <p><a href="http://blog.icchi.me/post-1383/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
-                        </div>
+                <div class="row row-bottom-padded-lg about-contents">
+                    <div class="col-md-6 to-animate">
+                        <img width="320" src="img/profile.jpg" class="img-responsive img-rounded">
                     </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="fh5co-press-item to-animate">
-                        <div class="fh5co-press-img" style="background-image: url(img/product/demo_wifiscan-starter.gif);">
+                    <div class="col-md-6 to-animate">
+                        <div class="row right-contents">
+                            <h1 class="name">Haruyuki Ichino <span>icchi</span></h1>
+                            <div class="about-description">
+                                <p>電子工作やプログラミングが好きな大学院生.</p>
+                                <p>最近はおうちハックに興味あり. <br>普段はDNNを使った人間行動の認識に関して研究しています.</p>
+                                <p><i class="fa fa-map-marker fa-fw"></i>名古屋</p>
+                            </div>
                         </div>
-                        <div class="fh5co-press-text">
-                            <h3 class="h2 fh5co-press-title">WiFiScan Starter for Mac<span class="fh5co-border"></span></h3>
-                            <p>1クリックでWiFiのスキャンツールを起動するアプリ. </p>
-                            <p><a href="http://blog.icchi.me/mac-wifi-scan-starter/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
+                        <div class="row link right-contents">
+                            <div class="col-sm-3">
+                                <a href="https://twitter.com/icchi_h" target="_blank"><h3><i class="fa fa-twitter fa-fw"></i>Twitter</h3></a>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <a href="http://github.com/icchi-h" target="_blank"><h3><i class="fa fa-github fa-fw"></i>GitHub</h3></a>
+                            </div>
+
+                            <!-- <div class="col&#45;sm&#45;3"> -->
+                            <!-- 	<h3><i class="fa fa&#45;github&#45;alt fa&#45;fw"></i></i>Gist</h3> -->
+                            <!-- 	<a href="https://gist.github.com/icchi&#45;h/" target="_blank">https://gist.github.com/icchi&#45;h/</a> -->
+                            <!-- </div> -->
+
+                            <div class="col-sm-3">
+                                <a href="http://blog.icchi.me" target="_blank"><h3><i class="fa fa-wordpress fa-fw"></i>Blog</h3></a>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <a href="http://qiita.com/icchi_h" target="_blank"><h3><i class="fa fa-search fa-fw"></i>Qiita</h3></a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <div id="fh5co-press" data-section="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="single-animate animate-press-1">Products</h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
+                                <!-- <h3>作ったもの</h3> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="fh5co-press-item to-animate">
+                            <div class="fh5co-press-img" style="background-image: url(img/product/senpanavi.jpg);">
+                            </div>
+                            <div class="fh5co-press-text">
+                                <h3 class="h2 fh5co-press-title">センパナビ<span class="fh5co-border"></span></h3>
+                                <p>名古屋・栄地下街セントラルパークの案内アプリ for Android.</p>
+                                <p><a href="https://play.google.com/store/apps/details?id=jp.lisra.cenpanavi2&hl=ja" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="fh5co-press-item to-animate">
+                            <a href="http://www.ucl.nuee.nagoya-u.ac.jp/" target="_blank"><div class="fh5co-press-img" style="background-image: url(img/product/ucl-website.jpg);">
+                            </div></a>
+                            <div class="fh5co-press-text">
+                                <h3 class="h2 fh5co-press-title">名古屋大・河口研HP<span class="fh5co-border"></span></h3>
+                                <p>所属する名古屋大学 河口研究室のWebサイト開発を担当．</p>
+                                <p><a href="http://blog.icchi.me/develop-lab-new-website/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="fh5co-press-item to-animate">
+                            <div class="fh5co-press-img" style="background-image: url(img/product/stamp_on_slack_demo.gif);">
+                            </div>
+                            <div class="fh5co-press-text">
+                                <h3 class="h2 fh5co-press-title">Stamp on Slack<span class="fh5co-border"></span></h3>
+                                <p>SlackでLINE風にスタンプを表示するシステム．</p>
+                                <p><a href="http://blog.icchi.me/slack-stamp-post/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="fh5co-press-item to-animate">
+                            <div class="fh5co-press-img" style="background-image: url(img/product/demo-NewGmail.gif);">
+                            </div>
+                            <div class="fh5co-press-text">
+                                <h3 class="h2 fh5co-press-title">Gmail Starter for Mac<span class="fh5co-border"></span></h3>
+                                <p>1クリックでGmailの新規メール画面を表示するアプリ. </p>
+                                <p><a href="http://blog.icchi.me/post-1383/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="fh5co-press-item to-animate">
+                            <div class="fh5co-press-img" style="background-image: url(img/product/demo_wifiscan-starter.gif);">
+                            </div>
+                            <div class="fh5co-press-text">
+                                <h3 class="h2 fh5co-press-title">WiFiScan Starter for Mac<span class="fh5co-border"></span></h3>
+                                <p>1クリックでWiFiのスキャンツールを起動するアプリ. </p>
+                                <p><a href="http://blog.icchi.me/mac-wifi-scan-starter/" target="_blank" class="btn btn-primary btn-sm">Detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-our-services" data-section="works">
+            <div class="container">
+                <div class="row row-bottom-padded-sm">
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="to-animate">Works</h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 to-animate">
+                                <h4>Blog(<a href="http://blog.icchi.me" target="_blank">http://blog.icchi.me</a>)の内容を一部紹介</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="http://blog.icchi.me/visualize-csgjs-cpp/" target="_blank">
+                            <div class="box to-animate">
+                                <img src="img/work/demo_csgjs-cpp.gif">
+                                <h3>csgjs-cppを使って3次元ブーリアン演算をやってみた</h3>
+                                <p>csg.jsのc++版であるcsgjs-cppを使って3次元ブーリアン演算を可視化してみました.</p>
+                            </div>
+                        </a>
+                        <a href="http://blog.icchi.me/imprezasport-footlamp/" target="_blank">
+                            <div class="box to-animate">
+                                <img src="img/work/imp-footlamp.jpg">
+                                <h3>インプレッサ スポーツにフットランプを取り付けてみた</h3>
+                                <p>友達の車に乗った際にフットランプの印象が良かったのでインプレッサにエーモンのフラットLEDを取り付けてみました.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="http://blog.icchi.me/suihanki-repair/" target="_blank">
+                            <div class="box to-animate">
+                                <img src="img/work/suihanki.jpg">
+                                <h3>炊飯器(象印 NP-VC10)を初期化して修理してみた</h3>
+                                <p>象印の炊飯器(NP-VC10)が故障したので分解して修理してみました.</p>
+                            </div>
+                        </a>
+                        <a href="http://blog.icchi.me/post-774/" target="_blank">
+                            <div class="box to-animate">
+                                <img src="img/work/balloon-control.jpg">
+                                <h3>飛行船の制御システムを作ってみた</h3>
+                                <p>文化祭で飛ばす気球の動力システムをArduinoを使って作ってみました.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+
+                        <a href="http://blog.icchi.me/arduino-gravimeter/" target="_blank">
+                            <div class="box to-animate">
+                                <img src="img/work/weight-measure.jpg">
+                                <h3>Aruduinoを使った重量計測システムを作ってみた</h3>
+                                <p>Arduinoと圧力センサー FSR-406を使って簡単な重量計算システムを作ってみました.</p>
+                            </div>
+                        </a>
+                        <a href="http://blog.icchi.me/post-653/" target="_blank">
+                            <div class="box to-animate">
+                                <img src="img/work/demo_delayedplayback.gif">
+                                <h3>Processingを使って遅延再生機能を作ってみた</h3>
+                                <p>部活の練習中にフォームチェックをするための遅延再生機能を作ってみました.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" role="contentinfo">
+            <div class="container">
+                <div class="row row-bottom-padded-sm">
+                    <div class="col-md-12">
+                        <p class="copyright text-center">&copy; 2016 <a href="index.html">icchi</a>. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </div>
-
-    <div id="fh5co-our-services" data-section="works">
-        <div class="container">
-            <div class="row row-bottom-padded-sm">
-                <div class="col-md-12 section-heading text-center">
-                    <h2 class="to-animate">Works</h2>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 to-animate">
-                            <h4>Blog(<a href="http://blog.icchi.me" target="_blank">http://blog.icchi.me</a>)の内容を一部紹介</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="http://blog.icchi.me/visualize-csgjs-cpp/" target="_blank">
-                        <div class="box to-animate">
-                            <img src="img/work/demo_csgjs-cpp.gif">
-                            <h3>csgjs-cppを使って3次元ブーリアン演算をやってみた</h3>
-                            <p>csg.jsのc++版であるcsgjs-cppを使って3次元ブーリアン演算を可視化してみました.</p>
-                        </div>
-                    </a>
-                    <a href="http://blog.icchi.me/imprezasport-footlamp/" target="_blank">
-                        <div class="box to-animate">
-                            <img src="img/work/imp-footlamp.jpg">
-                            <h3>インプレッサ スポーツにフットランプを取り付けてみた</h3>
-                            <p>友達の車に乗った際にフットランプの印象が良かったのでインプレッサにエーモンのフラットLEDを取り付けてみました.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="http://blog.icchi.me/suihanki-repair/" target="_blank">
-                        <div class="box to-animate">
-                            <img src="img/work/suihanki.jpg">
-                            <h3>炊飯器(象印 NP-VC10)を初期化して修理してみた</h3>
-                            <p>象印の炊飯器(NP-VC10)が故障したので分解して修理してみました.</p>
-                        </div>
-                    </a>
-                    <a href="http://blog.icchi.me/post-774/" target="_blank">
-                        <div class="box to-animate">
-                            <img src="img/work/balloon-control.jpg">
-                            <h3>飛行船の制御システムを作ってみた</h3>
-                            <p>文化祭で飛ばす気球の動力システムをArduinoを使って作ってみました.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-
-                    <a href="http://blog.icchi.me/arduino-gravimeter/" target="_blank">
-                        <div class="box to-animate">
-                            <img src="img/work/weight-measure.jpg">
-                            <h3>Aruduinoを使った重量計測システムを作ってみた</h3>
-                            <p>Arduinoと圧力センサー FSR-406を使って簡単な重量計算システムを作ってみました.</p>
-                        </div>
-                    </a>
-                    <a href="http://blog.icchi.me/post-653/" target="_blank">
-                        <div class="box to-animate">
-                            <img src="img/work/demo_delayedplayback.gif">
-                            <h3>Processingを使って遅延再生機能を作ってみた</h3>
-                            <p>部活の練習中にフォームチェックをするための遅延再生機能を作ってみました.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <footer id="footer" role="contentinfo">
-        <div class="container">
-            <div class="row row-bottom-padded-sm">
-                <div class="col-md-12">
-                    <p class="copyright text-center">&copy; 2016 <a href="index.html">icchi</a>. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
+    <!-- 読み込み画面表示 -->
+    <script>
+    $(function() {
+        var h = $(window).height();
+
+        $('#wrap').css('display','none');
+        $('#loader-bg ,#loader').height(h).css('display','block');
+    });
+
+    $(window).load(function () { //全ての読み込みが完了したら実行
+        $('#loader-bg').delay(900).fadeOut(800);
+        $('#loader').delay(600).fadeOut(300);
+        $('#wrap').css('display', 'block');
+    });
+
+    //10秒たったら強制的にロード画面を非表示
+    $(function(){
+        setTimeout('stopload()',10000);
+    });
+
+    function stopload(){
+        $('#wrap').css('display','block');
+        $('#loader-bg').delay(900).fadeOut(800);
+        $('#loader').delay(600).fadeOut(300);
+    }
+    </script>
+
     <!-- jQuery Easing -->
     <script src="js/jquery.easing.1.3.js"></script>
     <!-- Bootstrap -->
