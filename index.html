@@ -107,6 +107,20 @@
     }
     </script>
 
+    <!-- Lazy load -->
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script>
+    $( function()
+    {
+        $( 'img.lazy' ).lazyload(
+        {
+            "threshold": -200, // 200pxの距離まで近づいたら表示する
+            "effect": "fadeIn", // じわじわっと表示させる
+            "effect_speed": 2000 , // 3秒かけて表示させる
+        });
+    } ) ;
+    </script>
+
 </head>
 
 <style>
@@ -296,14 +310,14 @@
                     <div class="col-md-4">
                         <a href="http://blog.icchi.me/visualize-csgjs-cpp/" target="_blank">
                             <div class="box to-animate">
-                                <img src="img/work/demo_csgjs-cpp.gif">
+                                <img data-original="img/work/demo_csgjs-cpp.gif" class="lazy">
                                 <h3>csgjs-cppを使って3次元ブーリアン演算をやってみた</h3>
                                 <p>csg.jsのc++版であるcsgjs-cppを使って3次元ブーリアン演算を可視化してみました.</p>
                             </div>
                         </a>
                         <a href="http://blog.icchi.me/imprezasport-footlamp/" target="_blank">
                             <div class="box to-animate">
-                                <img src="img/work/imp-footlamp.jpg">
+                                <img data-original="img/work/imp-footlamp.jpg" class="lazy">
                                 <h3>インプレッサ スポーツにフットランプを取り付けてみた</h3>
                                 <p>友達の車に乗った際にフットランプの印象が良かったのでインプレッサにエーモンのフラットLEDを取り付けてみました.</p>
                             </div>
@@ -312,14 +326,14 @@
                     <div class="col-md-4">
                         <a href="http://blog.icchi.me/suihanki-repair/" target="_blank">
                             <div class="box to-animate">
-                                <img src="img/work/suihanki.jpg">
+                                <img data-original="img/work/suihanki.jpg" class="lazy">
                                 <h3>炊飯器(象印 NP-VC10)を初期化して修理してみた</h3>
                                 <p>象印の炊飯器(NP-VC10)が故障したので分解して修理してみました.</p>
                             </div>
                         </a>
                         <a href="http://blog.icchi.me/post-774/" target="_blank">
                             <div class="box to-animate">
-                                <img src="img/work/balloon-control.jpg">
+                                <img data-original="img/work/balloon-control.jpg" class="lazy">
                                 <h3>飛行船の制御システムを作ってみた</h3>
                                 <p>文化祭で飛ばす気球の動力システムをArduinoを使って作ってみました.</p>
                             </div>
@@ -329,14 +343,14 @@
 
                         <a href="http://blog.icchi.me/arduino-gravimeter/" target="_blank">
                             <div class="box to-animate">
-                                <img src="img/work/weight-measure.jpg">
+                                <img data-original="img/work/weight-measure.jpg" class="lazy">
                                 <h3>Aruduinoを使った重量計測システムを作ってみた</h3>
                                 <p>Arduinoと圧力センサー FSR-406を使って簡単な重量計算システムを作ってみました.</p>
                             </div>
                         </a>
                         <a href="http://blog.icchi.me/post-653/" target="_blank">
                             <div class="box to-animate">
-                                <img src="img/work/demo_delayedplayback.gif">
+                                <img data-original="img/work/demo_delayedplayback.gif" class="lazy">
                                 <h3>Processingを使って遅延再生機能を作ってみた</h3>
                                 <p>部活の練習中にフォームチェックをするための遅延再生機能を作ってみました.</p>
                             </div>
