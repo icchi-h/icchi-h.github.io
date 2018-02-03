@@ -1195,6 +1195,9 @@ h4 {
   border-radius: 4px;
   min-height: 420px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-contents{
@@ -1213,7 +1216,7 @@ h4 {
 
 }
 .name span{
-  font-size: 80%;
+  font-size: 64%;
   color: #555;
   margin-left: 20px;
 }
@@ -1229,7 +1232,13 @@ h4 {
 }
 
 .right-contents.link{
-  text-align: center;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .about-contents {
+      display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
