@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>HaruLabo Intro</title>
+	<meta name="author" content="Haruyuki Ichino" />
+	<meta name="description" content="ブログ「ハルラボ」のプロフィールページ" />
+	<meta name="Resource-type" content="Document" />
+
+    <meta property="og:image" content="http://harulabo.github.io/img/ogpimage.jpg">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="http://u-zoroy.com/sozai/css/style.css" type="text/css">
+    <script type="text/javascript" src="http://u-zoroy.com/sozai/js/common.js"></script>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+                menu: '#menu',
+				anchors: ['about', 'profile', 'contact'/*, 'product'*/],
+				//sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+                resize: false,
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['About', 'Profile', 'Contact'/*, 'Product'*/],
+                responsive: 900,
+                /*afterRender: function() {
+					map_initialize(); //画面を小さくしてもnavbarが表示
+                },*/
+			});
+		});
+	</script>
+
+</head>
+<body>
+    <!--Handai sample-->
+    <nav id="menu" class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="http://harulabo.github.io">HaruLabo Intro</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse-1">
+				<ul class="navbar-right">
+					<li data-menuanchor="about" class="active"><a href="#about">About</a></li>
+					<li data-menuanchor="profile"><a href="#profile">Profile</a></li>
+					<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+                    <!--<li data-menuanchor="product"><a href="#product">Product</a></li>-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <div class="container">
+                <h1>About</h1>
+                <div class="row">
+					<div class="col-sm-12 top-margin">
+                        <img src="img/logo.jpg" alt="harulabo" height="200px">
+                        <br>
+                        <p class="ctop-margin"><font size="5">Haru Laboとは</font></p>
+                        <br>
+                        <p>Haruyukiが備忘録として運営する技術ブログです。<br>
+                        最近少しだけアクセスが伸びました。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="container">
+                <h1>Profile</h1>
+                <div class="row">
+					<div class="col-sm-5 top-margin">
+                        <img src="img/profile.png" alt="profile" height="200px" width="200px">
+                    </div>
+                    <div class="col-sm-6 top-margin">
+                        <p class="name-line"><font size="5">Haruyuki</font></p>
+                            <p class="profile">電子工作やプログラミングなど技術系が好きな大学院生。<br>
+                            名古屋に生息。<br>
+                            <br>
+                            最近はHTML、CSS、JavaScriptなんかを使ったWeb製作にハマっている。<br>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="container">
+                <h1>Contact</h1>
+                <div class="row">
+                    <div class="col-sm-12 top-margin">
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01 button" title="Blog" href="http://harulabo.net" target="_blank">
+                                <img src="img/wordpress-128.png" alt="blog" width="110px"></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Twitter" href="https://twitter.com/haru1no" target="_blank">
+                                <img src="img/twitter-128.png" alt="twitter" width="110px"/></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Facebook" href="https://www.facebook.com/harulabo" target="_blank">
+                                <img src="img/facebook-128.png" alt="facebook" width="110px"/></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Google+" href="https://plus.google.com/+HarulabInfohome/videos" target="_blank">
+                                <img src="img/google-128.png" alt="google+" width="110px"/></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="GitHub" href="https://github.com/harulabo" target="_blank">
+                                <img src="img/github-128.png" alt="github" width="110px"/></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Gist" href="https://gist.github.com/harulabo/" target="_blank">
+                                <img src="img/gist-128.png" alt="gist" width="110px"/></a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Youtube" href="https://www.youtube.com/channel/UCHHeJ-7wMNja2hNnLrkdSVg" target="_blank">
+                                <img src="img/youtube-128.png" alt="youtube" width="110px"/>
+                            </a>
+                        </div>
+                        <div class="itemBox disp-inBlock">
+                            <a class="yrz-balloon01" title="Mail" href="mailto:&#104;&#97;&#114;&#117;&#108;&#97;&#98;&#111;&#105;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" target="_blank">
+                                <img src="img/mail-128.png" alt="mail" width="110px"/></a>
+                        </div>
+                    </div>
+                    <div id="copyright">Copyright &copy; 2012-2015 Haru Labo</div>
+                </div>
+            </div>
+        </div>
+        <!--未完成
+        <div class="section" id="section3">
+            <div class="container">
+                <h1>Product</h1>
+                <div class="row">
+					<div class="col-sm-12 top-margin">
+                    <p class="name-line"><font size="5">近日公開予定!?</font></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        -->
+
+    </div>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
