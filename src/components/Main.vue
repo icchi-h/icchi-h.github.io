@@ -20,7 +20,7 @@
         <!-- <v-flex xs12 md4> -->
         <v-flex xs12>
           <v-img
-            src="/img/profile.svg"
+            src="https://icchi.me/img/profile.svg"
             class="mt-1 mb-3 profile-img"
             contain
             alt="thumbnail"
