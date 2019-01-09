@@ -85,7 +85,7 @@
             <v-tooltip bottom>
               <v-btn
                 fab flat slot="activator"
-                href="https:qiita.com/icchi_h" target="_blank"
+                href="https://qiita.com/icchi_h" target="_blank"
                 class="link-icon" style="color:#4cb10d"
               >
                 <img
