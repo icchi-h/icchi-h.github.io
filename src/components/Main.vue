@@ -8,6 +8,7 @@
         right
         href="/old"
         target="_blank"
+        rel="noopener"
         class="text-none"
         style="top:12px;right:12px;line-height:1.1em;"
       >
@@ -59,6 +60,7 @@
                 slot="activator"
                 href="https://twitter.com/icchi_h"
                 target="_blank"
+                rel="noopener"
                 class="link-icon icon-twitter"
                 style="color: #00aced"
               >
@@ -78,6 +80,7 @@
                 slot="activator"
                 href="https://github.com/icchi-h"
                 target="_blank"
+                rel="noopener"
                 class="link-icon icon-github"
               >
                 <img
@@ -96,6 +99,7 @@
                 slot="activator"
                 href="https://blog.icchi.me"
                 target="_blank"
+                rel="noopener"
                 class="link-icon icon-wordpress"
               >
                 <!-- <i class="fab fa-wrdpress"></i> -->
@@ -114,6 +118,7 @@
                 slot="activator"
                 href="https://qiita.com/icchi_h"
                 target="_blank"
+                rel="noopener"
                 class="link-icon"
                 style="color:#4cb10d"
               >
