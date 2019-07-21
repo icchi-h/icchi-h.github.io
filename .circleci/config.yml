@@ -5,7 +5,7 @@
 version: 2.1
 executors:
   default:
-    working_directory: ~/repo
+    working_directory: ~/workspace
     docker:
       - image: circleci/node:9.11
 commands:
@@ -39,9 +39,10 @@ jobs:
     executor: default
     steps:
       - run: echo "test of deploy"
+
 workflows:
   # unnecessary workflows version on config version 2.1
-  build_test_and_deploy:
+  setup_and_deploy:
     jobs:
       - setup
       - deploy:
