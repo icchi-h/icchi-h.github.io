@@ -93,12 +93,7 @@
                   :src="require('../assets/img/blog-icon.svg')"
                   class="icon-blog"
                   alt="blog-icon"
-                  &#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;
-                  HEAD
                 />
-                =======
-                >
-                >>>>>>> 3369c6859644d07bb7e37b80f12e8515fd426c73
               </v-btn>
               <span>Blog</span>
             </v-tooltip>
@@ -114,18 +109,10 @@
               >
                 <img
                   src="../assets/img/qiita-icon.png"
-                  &#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;
-                  HEAD
-                  srcset="../assets/img/qiita-icon.png    1x, ../assets/img/qiita-icon@2x.png 2x"
+                  srcset="../assets/img/qiita-icon.png 1x, ../assets/img/qiita-icon@2x.png 2x"
                   class="icon-qiita"
                   alt="qiita-icon"
                 />
-                =======
-                srcset="../assets/img/qiita-icon.png 1x, ../assets/img/qiita-icon@2x.png 2x"
-                class="icon-qiita"
-                alt="qiita-icon"
-                >
-                >>>>>>> 3369c6859644d07bb7e37b80f12e8515fd426c73
               </v-btn>
               <span>Qiita</span>
             </v-tooltip>
