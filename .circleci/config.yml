@@ -20,11 +20,7 @@ commands:
       key: v1-dependencies-{{ checksum "package.json" }}
 jobs:
   build:
-    executor:
-      name: default
-    branches:
-      only:
-        - master
+    executor: default
     steps:
       - checkout
       - restore_cache
@@ -36,15 +32,9 @@ jobs:
           command: yarn build
       - save_cache
   deploy:
-    executor:
-      name: default
-    branches:
-      only:
-        - master
+    executor: default
     steps:
-      - run:
-        name: test
-        command: echo "test of deploy"
+      - run: echo "test of deploy"
 workflows:
   version: 2
   build_test_and_deploy:
@@ -53,3 +43,6 @@ workflows:
       - deploy:
         requires:
           - build
+      filters:
+        branches:
+          only: master
