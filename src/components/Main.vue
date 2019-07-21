@@ -62,7 +62,12 @@
                 class="link-icon icon-twitter"
                 style="color: #00aced"
               >
-                <i class="fab fa-twitter"></i>
+                <img
+                  src="../assets/img/twitter-icon.svg"
+                  class="icon-twitter"
+                  width="32px"
+                  alt="twitter-icon"
+                />
               </v-btn>
               <span>Twitter</span>
             </v-tooltip>
@@ -75,7 +80,12 @@
                 target="_blank"
                 class="link-icon icon-github"
               >
-                <i class="fab fa-github"></i>
+                <img
+                  src="../assets/img/github-icon.svg"
+                  class="icon-github"
+                  width="32px"
+                  alt="github-icon"
+                />
               </v-btn>
               <span>GitHub</span>
             </v-tooltip>
