@@ -40,13 +40,13 @@ jobs:
     steps:
       - run: echo "test of deploy"
 workflows:
-  version: 2
+  # unnecessary workflows version on config version 2.1
   build_test_and_deploy:
     jobs:
       - setup
       - deploy:
-        requires:
-          - setup
+          requires:
+            - setup
       filters:
         branches:
           only: master
