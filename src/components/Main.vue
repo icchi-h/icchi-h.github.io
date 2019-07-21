@@ -41,7 +41,7 @@
               <br />メディア企業で機械学習を利用したプロダクトやWebアプリを開発しています。学生時代はスマホのセンサデータを材料に、機械学習による認識タスクに取り組んでいました。
             </p>
             <p class="text-xs-center mb-auto">
-              <i class="fas fa-map-marker-alt" style="color: #E91E63"></i> 東京
+              <i class="material-icons" style="color: #E91E63;vertical-align: middle;">place</i>東京
             </p>
           </div>
         </v-flex>
