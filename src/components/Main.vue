@@ -12,11 +12,7 @@
         style="top:12px;right:12px;line-height:1.1em;"
       >
         old
-        <<<<<<< HEAD
         <br />ver
-        =======
-        <br />ver
-        >>>>>>> 3369c6859644d07bb7e37b80f12e8515fd426c73
       </v-btn>
 
       <v-layout text-xs-center wrap justify-center align-center mb-4>
@@ -97,7 +93,7 @@
                   :src="require('../assets/img/blog-icon.svg')"
                   class="icon-blog"
                   alt="blog-icon"
-                  &#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;
+                  &#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;
                   HEAD
                 />
                 =======
@@ -118,7 +114,7 @@
               >
                 <img
                   src="../assets/img/qiita-icon.png"
-                  &#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;&#x26;#x26;#x3C;
+                  &#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;&#x26;#x26;#x26;#x26;#x26;#x26;#x3C;
                   HEAD
                   srcset="../assets/img/qiita-icon.png    1x, ../assets/img/qiita-icon@2x.png 2x"
                   class="icon-qiita"
