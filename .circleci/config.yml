@@ -4,10 +4,14 @@
 #
 version: 2.1
 executors:
-  default:
+  node:
     working_directory: ~/workspace
     docker:
       - image: circleci/node:9.11
+  lftp:
+    working_directory: ~/workspace
+    docker:
+      - image: takkatakka/lftp:latest
 commands:
   restore_npm:
     steps:
@@ -23,8 +27,8 @@ commands:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 jobs:
-  setup:
-    executor: default
+  build:
+    executor: node
     steps:
       - checkout
       - restore_npm
@@ -35,22 +39,30 @@ jobs:
           name: Build
           command: yarn build
       - save_npm
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - dist
   deploy:
-    executor: default
+    executor: lftp
     steps:
-      - run: echo "test of deploy"
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: Deploy with bash script
+          command: bash deploy.sh
 
 workflows:
   # unnecessary workflows version on config version 2.1
-  setup_and_deploy:
+  general_wf:
     jobs:
-      - setup:
+      - build:
           filters:
             branches:
               only: master
       - deploy:
           requires:
-            - setup
+            - build
           filters:
             branches:
               only: master
