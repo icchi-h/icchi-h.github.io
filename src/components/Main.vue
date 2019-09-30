@@ -6,6 +6,7 @@
         absolute
         top
         right
+        color="primary"
         href="/old"
         target="_blank"
         rel="noopener"
@@ -30,8 +31,8 @@
 
         <!-- <v-flex xs12 md8> -->
         <v-flex xs12>
-          <h1 class="display-1 font-weight-bold">Haruyuki Ichino</h1>
-          <h2 class="subheadline mb-3">@icchi_h</h2>
+          <h1 class="display-1 font-weight-bold text-center">Haruyuki Ichino</h1>
+          <h2 class="subheadline mb-3 text-center">@icchi_h</h2>
           <div
             class="body-1 text-xs-left pa-2 ma-auto"
             style="width: fit-content;max-width: 520px;"
@@ -41,7 +42,7 @@
               社会人3年目。
               <br />メディア企業で機械学習を利用したプロダクトやWebアプリを開発しています。学生時代はスマホのセンサデータを材料に、機械学習による認識タスクに取り組んでいました。
             </p>
-            <p class="text-xs-center mb-auto">
+            <p class="text-center mb-auto">
               <i class="material-icons" style="color: #E91E63;vertical-align: middle;">place</i>東京
             </p>
           </div>
@@ -50,85 +51,119 @@
 
       <v-layout text-xs-center wrap justify-center align-center>
         <v-flex xs12>
-          <h1 class="headline font-weight-bold mb-1">Links</h1>
+          <h1 class="text-center headline font-weight-bold mb-1">Links</h1>
 
           <v-layout justify-center class="headline">
             <v-tooltip bottom>
-              <v-btn
-                fab
-                flat
-                slot="activator"
-                href="https://twitter.com/icchi_h"
-                target="_blank"
-                rel="noopener"
-                class="link-icon icon-twitter"
-                style="color: #00aced"
-              >
-                <img
-                  src="../assets/img/twitter-icon.svg"
-                  class="icon-twitter"
-                  width="32px"
-                  alt="twitter-icon"
-                />
-              </v-btn>
+              <template v-slot:activator="{ on }">
+                <v-btn
+                  fab
+                  text
+                  slot="activator"
+                  href="https://twitter.com/icchi_h"
+                  target="_blank"
+                  rel="noopener"
+                  class="link-icon icon-twitter"
+                  style="color: #00aced"
+                  v-on="on"
+                >
+                  <img
+                    src="../assets/img/twitter-icon.svg"
+                    class="icon-twitter"
+                    width="32px"
+                    alt="twitter-icon"
+                  />
+                </v-btn>
+              </template>
               <span>Twitter</span>
             </v-tooltip>
             <v-tooltip bottom>
-              <v-btn
-                fab
-                flat
-                slot="activator"
-                href="https://github.com/icchi-h"
-                target="_blank"
-                rel="noopener"
-                class="link-icon icon-github"
-              >
-                <img
-                  src="../assets/img/github-icon.svg"
-                  class="icon-github"
-                  width="32px"
-                  alt="github-icon"
-                />
-              </v-btn>
+              <template v-slot:activator="{ on }">
+                <v-btn
+                  fab
+                  text
+                  slot="activator"
+                  href="https://github.com/icchi-h"
+                  target="_blank"
+                  rel="noopener"
+                  class="link-icon icon-github"
+                  v-on="on"
+                >
+                  <img
+                    src="../assets/img/github-icon.svg"
+                    class="icon-github"
+                    width="32px"
+                    alt="github-icon"
+                  />
+                </v-btn>
+              </template>
               <span>GitHub</span>
             </v-tooltip>
             <v-tooltip bottom>
-              <v-btn
-                fab
-                flat
-                slot="activator"
-                href="https://blog.icchi.me"
-                target="_blank"
-                rel="noopener"
-                class="link-icon icon-wordpress"
-              >
-                <!-- <i class="fab fa-wrdpress"></i> -->
-                <img
-                  :src="require('../assets/img/blog-icon.svg')"
-                  class="icon-blog"
-                  alt="blog-icon"
-                />
-              </v-btn>
+              <template v-slot:activator="{ on }">
+                <v-btn
+                  fab
+                  text
+                  slot="activator"
+                  href="https://b.blog.icchi.me"
+                  target="_blank"
+                  rel="noopener"
+                  class="link-icon icon-wordpress"
+                  v-on="on"
+                >
+                  <!-- <i class="fab fa-wrdpress"></i> -->
+                  <img
+                    :src="require('../assets/img/blog-icon.svg')"
+                    class="icon-blog"
+                    alt="blog-icon"
+                  />
+                </v-btn>
+              </template>
+              <span>New Blog</span>
+            </v-tooltip>
+            <v-tooltip bottom>
+              <template v-slot:activator="{ on }">
+                <v-btn
+                  fab
+                  text
+                  slot="activator"
+                  href="https://blog.icchi.me"
+                  target="_blank"
+                  rel="noopener"
+                  class="link-icon icon-wordpress"
+                  v-on="on"
+                >
+                  <!-- <i class="fab fa-wrdpress"></i> -->
+                  <img
+                    :src="require('../assets/img/blog-icon.svg')"
+                    class="icon-blog"
+                    alt="blog-icon"
+                  />
+                </v-btn>
+              </template>
               <span>Blog</span>
             </v-tooltip>
             <v-tooltip bottom>
-              <v-btn
-                fab
-                flat
-                slot="activator"
-                href="https://qiita.com/icchi_h"
-                target="_blank"
-                rel="noopener"
-                class="link-icon"
-                style="color:#4cb10d"
-              >
-                <img
-                  src="../assets/img/qiita-icon.png"
-                  srcset="../assets/img/qiita-icon.png 1x, ../assets/img/qiita-icon@2x.png 2x"
-                  class="icon-qiita"
-                  alt="qiita-icon"
-                />
-              </v-btn>
+              <template v-slot:activator="{ on }">
+                <v-btn
+                  fab
+                  text
+                  slot="activator"
+                  href="https://qiita.com/icchi_h"
+                  target="_blank"
+                  rel="noopener"
+                  class="link-icon"
+                  style="color:#4cb10d"
+                  v-on="on"
+                >
+                  <img
+                    src="../assets/img/qiita-icon.png"
+                    srcset="../assets/img/qiita-icon.png 1x, ../assets/img/qiita-icon@2x.png 2x"
+                    class="icon-qiita"
+                    alt="qiita-icon"
+                  />
+                </v-btn>
+              </template>
               <span>Qiita</span>
             </v-tooltip>
           </v-layout>
