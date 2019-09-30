@@ -1,9 +1,13 @@
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
-import "vuetify/src/stylus/app.styl";
+import 'vuetify/src/styles/main.sass'
 
-Vue.use(Vuetify, {
-  // iconfont: 'md',
+Vue.use(Vuetify);
+
+export default new Vuetify({
+  icons: {
+    iconfont: 'mdi',
+  },
   theme: {
     primary: "#2196F3",
     secondary: "#E91E63"
