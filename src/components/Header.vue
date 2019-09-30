@@ -1,17 +1,17 @@
 <template>
-  <v-toolbar app dark>
+  <v-app-bar app>
     <v-toolbar-title class="headline">
       <span class="font-weight-light">icchi's page</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn flat href="#home">
+    <v-btn text href="#home">
       <span>Home</span>
     </v-btn>
-    <v-btn flat href="#products">
+    <v-btn text href="#products">
       <span>Products</span>
     </v-btn>
-    <v-btn flat href="#works" class="mr-2">
+    <v-btn text href="#works" class="mr-2">
       <span>Works</span>
     </v-btn>
-  </v-toolbar>
+  </v-app-bar>
 </template>

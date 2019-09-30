@@ -6,6 +6,7 @@
         absolute
         top
         right
+        color="primary"
         href="/old"
         target="_blank"
         rel="noopener"
@@ -30,8 +31,8 @@
 
         <!-- <v-flex xs12 md8> -->
         <v-flex xs12>
-          <h1 class="display-1 font-weight-bold">Haruyuki Ichino</h1>
-          <h2 class="subheadline mb-3">@icchi_h</h2>
+          <h1 class="display-1 font-weight-bold text-center">Haruyuki Ichino</h1>
+          <h2 class="subheadline mb-3 text-center">@icchi_h</h2>
           <div
             class="body-1 text-xs-left pa-2 ma-auto"
             style="width: fit-content;max-width: 520px;"
@@ -41,7 +42,7 @@
               社会人3年目。
               <br />メディア企業で機械学習を利用したプロダクトやWebアプリを開発しています。学生時代はスマホのセンサデータを材料に、機械学習による認識タスクに取り組んでいました。
             </p>
-            <p class="text-xs-center mb-auto">
+            <p class="text-center mb-auto">
               <i class="material-icons" style="color: #E91E63;vertical-align: middle;">place</i>東京
             </p>
           </div>
@@ -50,13 +51,13 @@
 
       <v-layout text-xs-center wrap justify-center align-center>
         <v-flex xs12>
-          <h1 class="headline font-weight-bold mb-1">Links</h1>
+          <h1 class="text-center headline font-weight-bold mb-1">Links</h1>
 
           <v-layout justify-center class="headline">
             <v-tooltip bottom>
               <v-btn
                 fab
-                flat
+                text
                 slot="activator"
                 href="https://twitter.com/icchi_h"
                 target="_blank"
@@ -76,7 +77,7 @@
             <v-tooltip bottom>
               <v-btn
                 fab
-                flat
+                text
                 slot="activator"
                 href="https://github.com/icchi-h"
                 target="_blank"
@@ -95,7 +96,7 @@
             <v-tooltip bottom>
               <v-btn
                 fab
-                flat
+                text
                 slot="activator"
                 href="https://blog.icchi.me"
                 target="_blank"
@@ -114,7 +115,7 @@
             <v-tooltip bottom>
               <v-btn
                 fab
-                flat
+                text
                 slot="activator"
                 href="https://qiita.com/icchi_h"
                 target="_blank"

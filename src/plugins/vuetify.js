@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
-import 'vuetify/src/styles/main.sass'
+import colors from 'vuetify/lib/util/colors'
+import 'vuetify/dist/vuetify.min.css'
 
 Vue.use(Vuetify);
 
@@ -9,7 +10,12 @@ export default new Vuetify({
     iconfont: 'mdi',
   },
   theme: {
-    primary: "#2196F3",
-    secondary: "#E91E63"
+    dark: true,
+    themes: {
+      dark: {
+        primary: colors.pink.base,
+        secondary: colors.indigo.base
+      }
+    }
   }
 });
