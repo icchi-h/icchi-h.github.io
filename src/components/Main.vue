@@ -12,10 +12,7 @@
         rel="noopener"
         class="text-none"
         style="top:12px;right:12px;line-height:1.1em;"
-      >
-        old
-        <br />ver
-      </v-btn>
+      >旧版</v-btn>
 
       <v-layout text-xs-center wrap justify-center align-center mb-4>
         <!-- <v-flex xs12 md4> -->
@@ -108,15 +105,16 @@
                   href="https://b.blog.icchi.me"
                   target="_blank"
                   rel="noopener"
-                  class="link-icon icon-wordpress"
+                  class="link-icon icon-new-blog-wrap"
                   v-on="on"
                 >
                   <!-- <i class="fab fa-wrdpress"></i> -->
                   <img
                     :src="require('../assets/img/blog-icon.svg')"
                     class="icon-blog"
-                    alt="blog-icon"
+                    alt="blog-new-icon"
                   />
+                  <div class="new-circle-icon">新</div>
                 </v-btn>
               </template>
               <span>New Blog</span>
@@ -130,7 +128,7 @@
                   href="https://blog.icchi.me"
                   target="_blank"
                   rel="noopener"
-                  class="link-icon icon-wordpress"
+                  class="link-icon"
                   v-on="on"
                 >
                   <!-- <i class="fab fa-wrdpress"></i> -->
@@ -213,6 +211,22 @@ export default {
 .icon-blog {
   width: 32px;
 }
+
+.new-circle-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 4px;
+  top: -8px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #e91e63;
+}
+
 .icon-qiita {
   width: 32px;
   border-radius: 2px;
