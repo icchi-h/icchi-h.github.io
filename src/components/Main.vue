@@ -102,7 +102,7 @@
                   fab
                   text
                   slot="activator"
-                  href="https://b.blog.icchi.me"
+                  href="https://blog.icchi.me"
                   target="_blank"
                   rel="noopener"
                   class="link-icon icon-new-blog-wrap"
@@ -125,7 +125,7 @@
                   fab
                   text
                   slot="activator"
-                  href="https://blog.icchi.me"
+                  href="https://wp.blog.icchi.me"
                   target="_blank"
                   rel="noopener"
                   class="link-icon"
