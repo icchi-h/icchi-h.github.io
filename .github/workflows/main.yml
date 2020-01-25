@@ -25,10 +25,10 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: install
-        run: yarn
+        run: npm install
 
       - name: build
-        run: yarn build
+        run: npm run build
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v2
