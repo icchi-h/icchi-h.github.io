@@ -1,20 +1,22 @@
 <template>
-  <v-app>
-    <!-- <Header/> -->
-    <Main />
+  <v-app class="app">
+    <Header />
+    <v-main>
+      <v-content>
+        <router-view />
+      </v-content>
+    </v-main>
   </v-app>
 </template>
 
 <script>
-// import Header from './components/Header'
-import Main from "./components/Main";
+import Header from "./components/Header";
 
 export default {
   name: "App",
   components: {
-    // Header,
-    Main
-  }
+    Header,
+  },
   // data () {
   //   return {
   //     //
@@ -22,3 +24,12 @@ export default {
   // }
 };
 </script>
+
+<style>
+.app {
+  font-family: "-apple-system", "BlinkMacSystemFont", "ヒラギノ角ゴシック",
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", Arial,
+    "メイリオ", Meiryo, sans-serif;
+  font-weight: 500;
+}
+</style>
