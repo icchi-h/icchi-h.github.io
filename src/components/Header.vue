@@ -4,14 +4,17 @@
       <span class="font-weight-light">icchi's page</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn text href="#home">
-      <span>Home</span>
+    <v-btn href="#home">
+      <v-icon>home</v-icon>
     </v-btn>
-    <v-btn text href="#products">
+    <v-btn text href="#timeline">
+      <v-icon>timeline</v-icon>
+    </v-btn>
+    <!-- <v-btn text href="#products">
       <span>Products</span>
     </v-btn>
     <v-btn text href="#works" class="mr-2">
       <span>Works</span>
-    </v-btn>
+    </v-btn>-->
   </v-app-bar>
 </template>
