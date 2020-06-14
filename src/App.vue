@@ -30,5 +30,6 @@ export default {
   font-family: "-apple-system", "BlinkMacSystemFont", "ヒラギノ角ゴシック",
     "Hiragino Kaku Gothic ProN", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", Arial,
     "メイリオ", Meiryo, sans-serif;
+  font-weight: 500;
 }
 </style>

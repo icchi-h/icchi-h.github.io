@@ -27,36 +27,30 @@
           <h1 class="display-1 font-weight-bold text-center name">
             Haruyuki Ichino
           </h1>
-          <h3 class="subheadline mb-3 text-center id">@icchi_h</h3>
+          <div class="d-flex justify-center align-center">
+            <h3 class="subheadline text-center id">@icchi_h</h3>
+            <i
+              class="material-icons ml-4"
+              style="color: #E91E63;vertical-align: middle;"
+              >place</i
+            >東京
+          </div>
           <Link />
         </div>
       </v-flex>
     </v-layout>
 
-    <v-layout text-xs-center wrap justify-center align-center mt-8>
+    <v-layout text-xs-center wrap justify-center align-center mt-6>
       <v-flex xs12>
         <div
           class="text-xs-left pa-2 ma-auto profile-message"
           style="width: fit-content;max-width: 520px;"
         >
           <p>都内のメディア企業で働く高専出身エンジニア。</p>
-          <p>ソフト・ハード問わず、ものづくり全般が好き。</p>
-          <p>社会人4年目。</p>
-          <s>
-            <p>
-              機械学習を利用したプロダクトやWebアプリを開発しています。学生時代はスマホのセンサデータを材料に、機械学習による認識タスクに取り組んでいました。
-            </p>
-          </s>
           <p>
-            Android(Kotlin)や、Go、PythonでアプリのAWSバックエンドをさわってます。時々、AWSやGCPでデータ分析用の基盤を扱うことも。
+            Web、アプリ(Android)、バックエンド、インフラを広く浅くさわってます。最近はAndroid(Kotlin)や、アプリのAWSバックエンド関連が多い。時々、AWSやGCPでデータウェアハウス・分析用の基盤を扱うことも。
           </p>
-          <p class="text-center mb-auto">
-            <i
-              class="material-icons"
-              style="color: #E91E63;vertical-align: middle;"
-              >place</i
-            >東京
-          </p>
+          <p>基本的にソフト・ハード問わず、ものづくり全般が好き。</p>
         </div>
       </v-flex>
     </v-layout>
