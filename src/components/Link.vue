@@ -57,8 +57,7 @@
           class="link-icon icon-new-blog-wrap"
           v-on="on"
         >
-          <!-- <i class="fab fa-wrdpress"></i> -->
-          <img :src="require('../assets/img/blog-icon.svg')" class="icon-blog" alt="blog-new-icon" />
+          <img :src="require('../assets/img/blog-icon.svg')" class="icon-blog" alt="blog-icon" />
         </v-btn>
       </template>
       <span>Blog</span>
@@ -85,6 +84,29 @@
         </v-btn>
       </template>
       <span>Qiita</span>
+    </v-tooltip>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-btn
+          fab
+          text
+          slot="activator"
+          href="https://note.com/icchi_h"
+          target="_blank"
+          rel="noopener"
+          class="link-icon"
+          style="color:#41C9B4"
+          v-on="on"
+        >
+          <img
+            src="../assets/img/note-icon.png"
+            srcset="../assets/img/note-icon.png    1x, ../assets/img/note-icon@2x.png 2x"
+            class="icon-note"
+            alt="note-icon"
+          />
+        </v-btn>
+      </template>
+      <span>note</span>
     </v-tooltip>
   </v-layout>
 </template>
