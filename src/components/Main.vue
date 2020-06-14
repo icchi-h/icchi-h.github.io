@@ -12,8 +12,7 @@
         rel="noopener"
         class="text-none"
         style="top:12px;right:12px;line-height:1.1em;"
-        >旧版</v-btn
-      >
+      >旧版</v-btn>
 
       <v-layout text-xs-center wrap justify-center align-center mb-4>
         <!-- <v-flex xs12 md4> -->
@@ -29,9 +28,7 @@
 
         <!-- <v-flex xs12 md8> -->
         <v-flex xs12>
-          <h1 class="display-1 font-weight-bold text-center">
-            Haruyuki Ichino
-          </h1>
+          <h1 class="display-1 font-weight-bold text-center">Haruyuki Ichino</h1>
           <h2 class="subheadline mb-3 text-center">@icchi_h</h2>
           <div
             class="body-1 text-xs-left pa-2 ma-auto"
@@ -43,11 +40,7 @@
               <br />メディア企業で機械学習を利用したプロダクトやWebアプリを開発しています。学生時代はスマホのセンサデータを材料に、機械学習による認識タスクに取り組んでいました。
             </p>
             <p class="text-center mb-auto">
-              <i
-                class="material-icons"
-                style="color: #E91E63;vertical-align: middle;"
-                >place</i
-              >東京
+              <i class="material-icons" style="color: #E91E63;vertical-align: middle;">place</i>東京
             </p>
           </div>
         </v-flex>
@@ -121,29 +114,6 @@
                     class="icon-blog"
                     alt="blog-new-icon"
                   />
-                  <div class="new-circle-icon">新</div>
-                </v-btn>
-              </template>
-              <span>New Blog</span>
-            </v-tooltip>
-            <v-tooltip bottom>
-              <template v-slot:activator="{ on }">
-                <v-btn
-                  fab
-                  text
-                  slot="activator"
-                  href="https://wp.blog.icchi.me"
-                  target="_blank"
-                  rel="noopener"
-                  class="link-icon"
-                  v-on="on"
-                >
-                  <!-- <i class="fab fa-wrdpress"></i> -->
-                  <img
-                    :src="require('../assets/img/blog-icon.svg')"
-                    class="icon-blog"
-                    alt="blog-icon"
-                  />
                 </v-btn>
               </template>
               <span>Blog</span>
@@ -163,10 +133,7 @@
                 >
                   <img
                     src="../assets/img/qiita-icon.png"
-                    srcset="
-                      ../assets/img/qiita-icon.png    1x,
-                      ../assets/img/qiita-icon@2x.png 2x
-                    "
+                    srcset="../assets/img/qiita-icon.png    1x, ../assets/img/qiita-icon@2x.png 2x"
                     class="icon-qiita"
                     alt="qiita-icon"
                   />
