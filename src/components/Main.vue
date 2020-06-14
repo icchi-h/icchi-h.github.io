@@ -85,6 +85,9 @@ export default {
 <style>
 .container {
   max-width: 960px;
+  font-family: "-apple-system", "BlinkMacSystemFont", "ヒラギノ角ゴシック",
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", Arial,
+    "メイリオ", Meiryo, sans-serif;
 }
 
 .thumbnail {
@@ -95,4 +98,6 @@ export default {
 .id {
   color: #bdbdbd;
 }
+
+/* .profile-message {} */
 </style>
