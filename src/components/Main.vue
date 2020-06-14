@@ -15,15 +15,15 @@
       >旧版</v-btn>
 
       <v-layout text-xs-center wrap justify-center align-center>
-        <v-flex xs12 class="text-center d-sm-flex justify-center">
+        <v-flex xs12 class="text-center d-sm-flex justify-center align-center">
           <img
             src="/img/profile.svg"
-            class="thumbnail ma-4 mr-sm-8"
+            class="thumbnail ma-2 mr-sm-8"
             contain
             alt="thumbnail"
             height="160"
           />
-          <div class="ma-4 ml-sm-8">
+          <div class="ma-2 ml-sm-8">
             <h1 class="display-1 font-weight-bold text-center name">Haruyuki Ichino</h1>
             <h3 class="subheadline mb-3 text-center id">@icchi_h</h3>
             <Link />
