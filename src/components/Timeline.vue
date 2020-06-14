@@ -11,7 +11,7 @@
             <!-- <v-col cols="9" class="pa-0"></v-col> -->
             <v-col
               cols="12"
-              sm="10"
+              sm="9"
               class="pa-0 pt-2 pt-sm-8"
               style="word-wrap: break-word;"
             >
