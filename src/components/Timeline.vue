@@ -5,13 +5,13 @@
       <v-timeline-item color="blue" small>
         <div>
           <v-row>
-            <v-col cols="3" class="pa-0">
+            <v-col cols="2" class="pa-0">
               <h4>学生時</h4>
             </v-col>
             <!-- <v-col cols="9" class="pa-0"></v-col> -->
             <v-col
               cols="12"
-              sm="9"
+              sm="10"
               class="pa-0 pt-2 pt-sm-8"
               style="word-wrap: break-word;"
             >
