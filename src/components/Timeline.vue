@@ -6,7 +6,7 @@
         <div>
           <v-row>
             <v-col cols="2" class="pa-0">
-              <h4>学生時</h4>
+              <h4>学生</h4>
             </v-col>
             <!-- <v-col cols="9" class="pa-0"></v-col> -->
             <v-col
