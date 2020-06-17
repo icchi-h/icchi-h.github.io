@@ -9,12 +9,7 @@
               <h4>学生</h4>
             </v-col>
             <!-- <v-col cols="9" class="pa-0"></v-col> -->
-            <v-col
-              cols="12"
-              sm="10"
-              class="pa-0 pt-2 pt-sm-8"
-              style="word-wrap: break-word;"
-            >
+            <v-col cols="12" sm="10" class="pa-0 pt-2 pt-sm-8" style="word-wrap: break-word;">
               <ul>
                 <li>専攻: 電子情報工学</li>
                 <li>
@@ -22,7 +17,7 @@
                   スマートフォンから取得できる時系列センサ信号を用いた人間行動認識、自己位置推定
                 </li>
                 <li>バイト: 地下街案内アプリ(Android)の開発</li>
-                <li>バイト: 建築向け3D Cadソフトの開発</li>
+                <li>バイト: 建築向けCADソフトの開発</li>
               </ul>
             </v-col>
           </v-row>
@@ -61,12 +56,7 @@
               <h4>2017/07〜</h4>
             </v-col>
             <!-- <v-col cols="9" class="pa-0"></v-col> -->
-            <v-col
-              cols="12"
-              sm="10"
-              class="pa-0 pt-2 pt-sm-8"
-              style="word-wrap: break-word;"
-            >
+            <v-col cols="12" sm="10" class="pa-0 pt-2 pt-sm-8" style="word-wrap: break-word;">
               <ul>
                 <li>顔画像認識Androidアプリの開発(アプリ、モデル生成)</li>
                 <li>グラフ・地図画像生成システムの開発(FE,BE,Infra)</li>
@@ -84,12 +74,7 @@
               <h4>2019/07〜</h4>
             </v-col>
             <!-- <v-col cols="9" class="pa-0"></v-col> -->
-            <v-col
-              cols="12"
-              sm="10"
-              class="pa-0 pt-2 pt-sm-8"
-              style="word-wrap: break-word;"
-            >
+            <v-col cols="12" sm="10" class="pa-0 pt-2 pt-sm-8" style="word-wrap: break-word;">
               <ul>
                 <li>Nuxt(TypeScript)によるWebサイト再構築</li>
                 <li>AWS製データウェアハウス・分析基盤の運用</li>
@@ -105,12 +90,7 @@
               <h4>2020/04〜</h4>
             </v-col>
             <!-- <v-col cols="9" class="pa-0"></v-col> -->
-            <v-col
-              cols="12"
-              sm="10"
-              class="pa-0 pt-2 pt-sm-8"
-              style="word-wrap: break-word;"
-            >
+            <v-col cols="12" sm="10" class="pa-0 pt-2 pt-sm-8" style="word-wrap: break-word;">
               <ul>
                 <li>Android(Kotlin)とアプリバックエンドAWS環境の開発・運用</li>
               </ul>
@@ -125,7 +105,7 @@
 
 <script>
 export default {
-  name: "Timeline",
+  name: "Timeline"
   // components: {},
   // data: () => ({}),
 };
