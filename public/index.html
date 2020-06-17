@@ -61,8 +61,32 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
-      gtag('config', 'UA-47709529-2');
+      gtag("js", new Date());
+      gtag("config", "UA-47709529-2");
+    </script>
+
+    <!-- vue-router用リダイレクトスクリプト -->
+    <script>
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search
+            .slice(1)
+            .split("&")
+            .forEach(function(v) {
+              // ?p=/fooの分解
+              var a = v.split("=");
+              q[a[0]] = a[1];
+            });
+          if (q.p !== undefined) {
+            window.history.replaceState(
+              null,
+              null,
+              l.pathname.slice(0, -1) + (q.p || "")
+            );
+          }
+        }
+      })(window.location);
     </script>
   </head>
   <body>
