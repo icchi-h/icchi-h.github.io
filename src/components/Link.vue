@@ -77,13 +77,36 @@
         >
           <img
             src="../assets/img/qiita-icon.png"
-            srcset="../assets/img/qiita-icon.png    1x, ../assets/img/qiita-icon@2x.png 2x"
+            srcset="../assets/img/qiita-icon.png 1x, ../assets/img/qiita-icon@2x.png 2x"
             class="icon-qiita"
             alt="qiita-icon"
           />
         </v-btn>
       </template>
       <span>Qiita</span>
+    </v-tooltip>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-btn
+          fab
+          text
+          slot="activator"
+          href="https://zenn.dev/icchi"
+          target="_blank"
+          rel="noopener"
+          class="link-icon"
+          style="color:#3DA6F8"
+          v-on="on"
+        >
+          <img
+            src="../assets/img/note-icon.png"
+            srcset="../assets/img/zenn-icon.png 1x, ../assets/img/zenn-icon@2x.png 2x"
+            class="icon-note"
+            alt="note-icon"
+          />
+        </v-btn>
+      </template>
+      <span>zenn</span>
     </v-tooltip>
     <v-tooltip bottom>
       <template v-slot:activator="{ on }">
@@ -100,7 +123,7 @@
         >
           <img
             src="../assets/img/note-icon.png"
-            srcset="../assets/img/note-icon.png    1x, ../assets/img/note-icon@2x.png 2x"
+            srcset="../assets/img/note-icon.png 1x, ../assets/img/note-icon@2x.png 2x"
             class="icon-note"
             alt="note-icon"
           />
