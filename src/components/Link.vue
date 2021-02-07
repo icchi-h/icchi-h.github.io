@@ -91,7 +91,7 @@
           fab
           text
           slot="activator"
-          href="https://zenn.dev/icchi"
+          href="https://zenn.dev/icchi_h"
           target="_blank"
           rel="noopener"
           class="link-icon"
